@@ -50,13 +50,13 @@ export default function Hero() {
       <header className=" inset-0 flex flex-col h-[100dvh] w-full items-center justify-center bg-bg relative space-y-4">
 
  <div className='absolute left-4 top-6 flex items-center'>
-   <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-10 w-10 mr-1'/>
-   <div className='text-5xl font-black '>
+   <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-6 w-6 mr-1'/>
+   <div className='text-3xl font-black '>
      Kuma
    </div>
  </div>
 
- <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[60%] pt-16" />
+ <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[55%]" />
 
  <div className='w-full text-center'>
    <div className='text-3xl font-bold mb-2'>
