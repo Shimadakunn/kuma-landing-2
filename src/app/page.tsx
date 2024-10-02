@@ -3,7 +3,7 @@ import Features from '@/sections/features'
 import Hero from '@/sections/hero'
 import Video from '@/sections/video'
 import Questions from '@/sections/questions'
-import Pricing from '@/sections/pricing'
+import CallToAction from '@/sections/call-to-action'
 import Footer from '@/components/footer'
 import Marquee from '@/sections/marquee'
 
@@ -18,7 +18,7 @@ export default function Home() {
       <Protocols />
       <Questions />
       <Marquee/>
-      <Pricing />
+      <CallToAction />
       <Footer />
     </>
   )

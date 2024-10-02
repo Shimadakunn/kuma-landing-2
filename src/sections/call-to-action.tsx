@@ -11,7 +11,7 @@ export default function CallToAction() {
         <div className='mx-auto w-full flex justify-center'>
         <Button className='text-2xl sm:text-3xl px-14 sm:px-16 py-8 font-black'>
           <div>Download</div>
-            <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 w-full ml-2" />
+            <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2" />
         </Button>
         </div>
        
