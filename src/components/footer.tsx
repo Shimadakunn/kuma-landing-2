@@ -11,7 +11,7 @@ export default function Footer() {
      Kuma
    </div>
   </div>
-     <span className='font-light hidden md:block'>Make the Blockchain and Decentralized Finance more accessible to everyone. </span>
+     <span className='font-light hidden md:block'>Make the Blockchain and Decentralized Finance accessible to everyone. </span>
 
       <div className='flex justify-center gap-2'>
         <Button variant="neutral" size="icon">
