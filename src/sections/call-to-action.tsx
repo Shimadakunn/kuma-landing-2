@@ -9,10 +9,10 @@ export default function CallToAction() {
           Step into the future of DeFi
         </h2>
         <div className='mx-auto w-full flex justify-center'>
-        <Button className='text-2xl sm:text-3xl px-14 sm:px-16 py-8 font-black'>
-          <div>Download</div>
-            <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2" />
-        </Button>
+          <Button className='text-2xl sm:text-3xl px-8 sm:px-16 py-8 font-black flex items-center w-[85vw] sm:w-auto'>
+              <div>Download</div>
+              <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2 w-8" />
+          </Button>
         </div>
        
       </div>

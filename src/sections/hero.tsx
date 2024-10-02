@@ -39,7 +39,7 @@ export default function Hero() {
    <div className='w-full flex justify-center'>
    <Button className=' text-3xl px-16 py-8 font-black'>
        <div>Download App</div>
-         <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2" />
+         <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 w-8 ml-2" />
      </Button>
    </div>
     
@@ -65,10 +65,10 @@ export default function Hero() {
    <div className='text-sm text-black mb-4'>
      Access high yields without the crypto complexity
    </div>
-   <div className='w-full flex justify-center'>
-   <Button className=' text-2xl px-14 py-8 font-black'>
+   <div className='w-full'>
+    <Button className=' text-2xl w-[85vw] py-8 font-black flex items-center justify-center mx-auto'>
        <div>Download App</div>
-         <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2" />
+         <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2 w-8" />
      </Button>
    </div>
     
