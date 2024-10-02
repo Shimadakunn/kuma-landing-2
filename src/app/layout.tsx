@@ -6,7 +6,7 @@ import { Heading } from '@/components/heading'
 const dmSans = Lexend({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Neobrutalism Saas template',
+  title: 'Kuma',
 }
 
 export default function RootLayout({
