@@ -47,16 +47,16 @@ export default function Hero() {
 
 </header>
     ) : (
-      <header className=" inset-0 flex flex-col h-[100dvh] w-full items-center justify-center bg-bg relative space-y-4">
+      <header className=" inset-0 flex flex-col h-[100dvh] w-full items-center justify-center bg-bg relative space-y-10 border">
 
  <div className='absolute left-4 top-6 flex items-center'>
-   <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-6 w-6 mr-1'/>
-   <div className='text-3xl font-black '>
+   <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-8 w-8 mr-1'/>
+   <div className='text-4xl text-[2.5rem] font-black '>
      Kuma
    </div>
  </div>
 
- <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[55%]" />
+ <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[70%] " />
 
  <div className='w-full text-center'>
    <div className='text-3xl font-bold mb-2'>
