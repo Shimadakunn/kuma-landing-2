@@ -56,7 +56,7 @@ export default function Hero() {
    </div>
  </div>
 
- <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[70%] " />
+ <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[65%] " />
 
  <div className='w-full text-center'>
    <div className='text-3xl text-[#DBCAF4] mb-2'>
