@@ -59,10 +59,10 @@ export default function Hero() {
  <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[65%] " />
 
  <div className='w-full text-center'>
-   <div className='text-3xl text-[#DBCAF4] mb-2'>
+   <div className='text-3xl text-[#DBCAF4]'>
    The <span className='text-white'>wallet</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white'>Blockchain</span>
    </div>
-   <div className='text-sm text-black mb-4'>
+   <div className='text-sm text-black mb-6'>
    Easy to use, own crypto on-chain, earn high-yield
    </div>
    <div className='w-full'>
