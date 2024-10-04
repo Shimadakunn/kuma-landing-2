@@ -7,6 +7,7 @@ import Footer from '@/components/footer'
 import Marquee from '@/sections/marquee'
 import Problematic from '@/sections/problematic'
 import Solutions from '@/sections/solutions'
+import Screens from '@/sections/screens'
 export default function Home() {
   return (
     <>
@@ -15,6 +16,8 @@ export default function Home() {
       <Problematic/>
       <Solutions/>
       <Video />
+      <Screens/>
+      <Protocols/>
       <Questions />
       <Marquee/>
       <CallToAction />

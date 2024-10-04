@@ -28,7 +28,7 @@ const config: Config = {
         darkBorder: '#000',
       },
       borderRadius: {
-        base: '0px',
+        base: '8px',
       },
       boxShadow: {
         light: '4px 4px 0px 0px #000',
