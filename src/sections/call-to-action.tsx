@@ -25,7 +25,7 @@ export default function CallToAction() {
               </>
             ) : (
               <>
-              Step into the <span className='font-black'>Future</span> of <br/> <span className='font-black'>Finance</span>
+              Step into the <span className='font-black'>Future</span> of <span className='font-black'>Finance</span>
               </>
             )
           }

@@ -29,20 +29,25 @@ export default function Hero() {
 
  <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="h-[95%] w-1/2" />
 
- <div className='w-full mt-44'>
+ <div className='w-full mt-44 px-16'>
    <div className='text-6xl leading-none mb-4 text-[#DBCAF4]'>
-   The <span className='text-white'>wallet</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white'>Blockchain</span>
+   The <span className='text-white'>app</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white'>Blockchain</span>
    </div>
-   <div className='text-3xl text-[1.5rem] text-black mb-24'>
+   <div className='text-3xl text-[1.5rem] text-black mb-20'>
    Easy to use, own crypto on-chain, earn high-yield
    </div>
-   <div className='w-[90%] flex justify-center'>
+   <div className='flex justify-center'>
    <Button className='text-3xl px-16 py-8 font-black'>
        <div>Download App</div>
          <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 w-8 ml-2" />
      </Button>
    </div>
-    
+   <div className="flex justify-center items-center text-2xl font-black mt-8">
+          <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 w-8"/>
+          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span></div>
+          <Image src="/medal.svg" alt="medal" width={100} height={100} className="ml-1 w-5 "/>
+          </div>
+  
  </div>
 
 </header>
@@ -71,8 +76,14 @@ export default function Hero() {
          <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2 w-8" />
      </Button>
    </div>
+   
     
  </div>
+ <div className="flex justify-center items-center text-xl font-black absolute bottom-16">
+          <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 w-6"/>
+          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span></div>
+          <Image src="/medal.svg" alt="medal" width={100} height={100} className="ml-1 w-4 "/>
+          </div>
  </header>
     )}
     </>

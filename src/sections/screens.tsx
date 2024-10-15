@@ -9,6 +9,17 @@
           </h2>
   
           <Image src="/screen.png" alt="screenshot" width={1000} height={1000} className="mx-auto w-[90vw] sm:w-[50vw] "/>
+
+        <div className="mt-6">
+        <div className="flex justify-center items-center text-base sm:text-xl font-light">
+          <Image src="/medal.svg" alt="medal" width={100} height={100} className="mr-1 w-4 sm:w-6 "/>
+          Winner
+          </div>
+          <div className="flex justify-center items-center text-2xl sm:text-5xl font-black mt-2">
+          <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 sm:mr-3 w-16 sm:w-24"/>
+          <div>ETH<span className="font-normal">Global</span> <br/> <span className="font-light text-gray-200">Online 2024</span></div>
+          </div>
+        </div>
         </section>
   
     )

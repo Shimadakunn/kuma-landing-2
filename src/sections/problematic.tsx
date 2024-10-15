@@ -17,7 +17,7 @@ export default function Problematic() {
     <section className="border-b-border inset-0 flex w-full flex-col items-center justify-center border-b-4 bg-white bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px] font-base relative">
      
      <div className='absolute top-4 right-4 text-black flex items-center gap-1 font-normal sm:font-semibold'>
-        Our Partners
+        Featured by
         <Image src={"/arrow.svg"} alt="logo" width={100} height={100} className="w-10 " />
         
      </div>
