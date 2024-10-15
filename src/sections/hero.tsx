@@ -52,7 +52,7 @@ export default function Hero() {
 
 </header>
     ) : (
-      <header className=" inset-0 flex flex-col h-[100dvh] w-full items-center justify-center bg-bg relative space-y-2">
+      <header className=" inset-0 flex flex-col h-[100vh] w-full items-center justify-center bg-bg relative space-y-2">
 
  <div className='absolute left-4 top-6 flex items-center'>
    <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-8 w-8 mr-1'/>
