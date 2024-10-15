@@ -108,14 +108,14 @@ export  const Marque = () => {
         
         
          <LayerZero />
-         <Polygon />
-         <Avalanche />
+         {/* <Polygon />
+         <Avalanche /> */}
          <Optimism />
                 <Arbitrum />
                 <Ethglobal />
                 <LayerZero />
-         <Polygon />
-         <Avalanche />
+         {/* <Polygon />
+         <Avalanche /> */}
          <Optimism />
                 <Arbitrum />
                 <Ethglobal />

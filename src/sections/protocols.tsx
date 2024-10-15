@@ -5,14 +5,14 @@ const protocols = [
     {
       name: 'Aave',
       risk: 'Low Risk',
-      description: 'Avalanche is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Aave is a decentralized finance (DeFi) platform that allows users to lend and borrow cryptocurrencies.',
       logo: '/protocols/aave.svg',
     },
     
     {
       name: 'Tokemak',
       risk: 'High Risk',
-      description: 'Bitcoin is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Tokemak is a protocol for restaking Ethereum rewards.',
       logo: '/protocols/tokemak.svg',
     },
   ],
@@ -20,19 +20,19 @@ const protocols = [
     {
       name: 'Lido',
       risk: 'Low Risk',
-      description: 'Solana is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Lido allows liquid staking of Ethereum, providing a way for users to earn staking rewards while maintaining their Ethereum tokens in their own wallets.',
       logo: '/protocols/lido.svg',
     },
     {
       name: 'Curve',
       risk: 'Medium Risk',
-      description: 'Arbitrum is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Curve Finance is a decentralized exchange (DEX) of liquidity pools for stablecoins.',
       logo: '/protocols/curve.png',
     },
     {
       name: 'Uniswap',
       risk: 'Medium Risk',
-      description: 'Polygon is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Uniswap is a decentralized exchange (DEX) that allows users to trade cryptocurrencies.',
       logo: '/protocols/uniswap.svg',
     },
     
@@ -42,13 +42,13 @@ const protocols = [
     {
       name: 'EigenLayer',
       risk: 'High Risk',
-      description: 'Binance is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'EigenLayer enables staked ETH to be used as cryptoeconomic security for protocols other than Ethereum, in exchange for protocol fees and rewards.',
       logo: '/protocols/eigenlayer.png',
     },
     {
       name: 'Jupiter',
       risk: 'High Risk',
-      description: 'Ethereum is a blockchain platform that provides a high-performance, low-latency, and secure environment for DeFi applications.',
+      description: 'Jupiter is a decentralized exchange (DEX) that allows users to trade cryptocurrencies on the Solana blockchain.',
       logo: '/protocols/jupiter.svg',
     },
   ],
