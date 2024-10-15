@@ -52,7 +52,7 @@ export default function Hero() {
 
 </header>
     ) : (
-      <header className=" inset-0 flex flex-col h-[100vh] w-full items-center justify-center bg-bg relative space-y-2">
+      <header className=" inset-0 flex flex-col h-[95vh] w-full items-center justify-center bg-bg relative space-y-2">
 
  <div className='absolute left-4 top-6 flex items-center'>
    <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-8 w-8 mr-1'/>
@@ -79,7 +79,7 @@ export default function Hero() {
    
     
  </div>
- <div className="flex justify-center items-center text-xl font-black absolute bottom-2">
+ <div className="flex justify-center items-center text-xl font-black absolute bottom-12">
           <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 w-6"/>
           <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span> <span className="text-yellow-400 font-black">Winner</span></div>
           <Image src="/medal.svg" alt="medal" width={100} height={100} className="ml-1 w-4 "/>
