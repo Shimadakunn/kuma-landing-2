@@ -11,8 +11,8 @@
           <Image src="/screen.png" alt="screenshot" width={1000} height={1000} className="mx-auto w-[90vw] sm:w-[50vw] "/>
 
         <div className="mt-6">
-        <div className="flex justify-center items-center text-base sm:text-xl font-light">
-          <Image src="/medal.svg" alt="medal" width={100} height={100} className="mr-1 w-4 sm:w-6 "/>
+        <div className="flex justify-center items-center text-base sm:text-2xl text-yellow-400">
+          <Image src="/medal.svg" alt="medal" width={100} height={100} className="mr-1 w-4 sm:w-7 "/>
           Winner
           </div>
           <div className="flex justify-center items-center text-2xl sm:text-5xl font-black sm:mt-2">

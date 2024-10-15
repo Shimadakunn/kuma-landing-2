@@ -44,7 +44,7 @@ export default function Hero() {
    </div>
    <div className="flex justify-center items-center text-2xl font-black mt-8">
           <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 w-8"/>
-          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span></div>
+          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span> <span className="text-yellow-400 font-black">Winner</span></div>
           <Image src="/medal.svg" alt="medal" width={100} height={100} className="ml-1 w-5 "/>
           </div>
   
@@ -81,7 +81,7 @@ export default function Hero() {
  </div>
  <div className="flex justify-center items-center text-xl font-black absolute bottom-2">
           <Image src="/ethglobal.svg" alt="ethglobal" width={100} height={100} className="mr-2 w-6"/>
-          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span></div>
+          <div>ETH<span className="font-normal">Global</span> <span className="font-light text-gray-200">Online 2024</span> <span className="text-yellow-400 font-black">Winner</span></div>
           <Image src="/medal.svg" alt="medal" width={100} height={100} className="ml-1 w-4 "/>
           </div>
  </header>
