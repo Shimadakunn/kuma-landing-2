@@ -4,7 +4,7 @@
     return (
   
         <section className=" dark:bg-darkBg bg-bg pt-14 pb-10 font-base lg:pt-[100px] lg:pb-[50px] border-b-4 border-black">
-          <h2 className=" text-center text-3xl font-heading md:text-3xl mb-10 lg:text-5xl">
+          <h2 className=" text-center text-3xl font-heading md:text-3xl mb-10 lg:text-5xl [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]">
             Application
           </h2>
   

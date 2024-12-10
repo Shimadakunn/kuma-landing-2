@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { Linkedin, Twitter, Send, Mail} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Linkedin, Mail, Send, Twitter } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (

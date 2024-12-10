@@ -31,7 +31,7 @@ export default function Solutions() {
 
   return (
       <section className=" bg-bg py-16 font-base lg:py-[100px] border-b-border border-b-4">
-        <h2 className="mb-10 px-5 text-center text-4xl text-[2.75rem] font-heading md:text-3xl lg:mb-15 lg:text-5xl">
+        <h2 className="mb-10 px-5 text-center text-4xl text-[2.75rem] font-heading md:text-3xl lg:mb-15 lg:text-5xl [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]">
           Solutions
         </h2>
 
@@ -54,8 +54,6 @@ export default function Solutions() {
                   {feature.title}
                 </h4>
                 </div>
-                
-
                 
                 <p>{feature.text}</p>
               </div>

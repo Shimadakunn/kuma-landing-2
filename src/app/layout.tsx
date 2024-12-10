@@ -1,7 +1,7 @@
+import { Heading } from '@/components/heading'
 import type { Metadata } from 'next'
 import { Lexend } from 'next/font/google'
 import './globals.css'
-import { Heading } from '@/components/heading'
 
 const dmSans = Lexend({ subsets: ['latin'] })
 

@@ -1,6 +1,6 @@
 "use client"
-import Image from 'next/image'
-import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 export default function Problematic() {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -22,15 +22,19 @@ export default function Problematic() {
         
      </div>
       <div className="mx-auto w-container max-w-full px-4 py-20 lg:py-[100px]">
-        <h2 className="text-3xl text-[1.75rem] font-normal lg:mb-15 lg:text-5xl text-black text-left sm:text-center">
+        <h2 className="text-4xl font-normal lg:mb-15 lg:text-5xl text-black text-left sm:text-center">
           {isMobile ? (
             <>
-              Interact with  <span className='font-black'>Blockchain</span> is not <span className='font-black text-red-500'>intuitive</span>. 
-              <div className='mt-4'><span className='font-black'>Defi</span> protocols are   <span className='font-black text-red-500'>hard </span>to access.</div>
+              <span className='font-black'>Investing</span> is <span className='font-black text-red-500'>scary</span>.
+              <div className='mt-4'><span className='font-black'>Where</span> to start?</div>
+              <div className='mt-1'><span className='font-black'>How</span> to invest?</div>
+              <div className='mt-1'>What if I <span className='font-black text-red-500'>lose </span> my <span className='font-black'>money</span>?</div>
             </>
           ) : (
             <>
-              Interact with <span className='font-black'>Blockchain</span> is not <span className='font-black text-red-500'>intuitive</span>. <br/> <span className='font-black'>Defi</span> protocols are <span className='font-black text-red-500'>hard </span>to access.
+              <span className='font-black'>Investing</span> is <span className='font-black text-red-500'>scary</span>.
+              <div className='mt-4'><span className='font-black'>Where</span> to start, <span className='font-black'>How</span> to invest?</div>
+              <div className='mt-1'>What if I <span className='font-black text-red-500'>lose </span>all my <span className='font-black'>money</span>?</div>
             </>
           )}
         </h2>

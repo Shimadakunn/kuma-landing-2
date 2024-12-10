@@ -1,7 +1,7 @@
 "use client"
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
-import { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function Hero() {
   const [isMobile, setIsMobile] = useState(false);
@@ -18,23 +18,26 @@ export default function Hero() {
   return (
     <>
     {!isMobile ? (
- <header className=" inset-0 flex h-[100dvh] w-full items-center justify-center bg-bg relative">
+ <header className=" inset-0 flex h-[100dvh] w-full items-center justify-around bg-bg relative">
 
  <div className='absolute right-1/2 top-8 translate-x-1/2 flex items-center'>
    <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-12 w-12 mr-1'/>
-   <div className='text-6xl font-black '>
+   <div className='text-6xl font-black [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>
      Kuma
    </div>
  </div>
 
- <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="h-[95%] w-1/2" />
+ <div className='w-[40%] flex items-center justify-center h-full'>
+ <Image src={"/ill.svg"} alt="logo" width={100} height={100} className="w-[75%]" />
+ </div>
 
- <div className='w-full mt-44 px-16'>
+
+ <div className='mt-44 px-16 mr-16'>
    <div className='text-6xl leading-none mb-4 text-[#DBCAF4]'>
-   The <span className='text-white'>app</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white'>Blockchain</span>
+   The <span className='text-white'>app</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Saving Money</span>
    </div>
    <div className='text-3xl text-[1.5rem] text-black mb-20'>
-   Easy to use, own crypto on-chain, earn high-yield
+   Put your idle money to work with decentralized finance.
    </div>
    <div className='flex justify-center'>
    <Button className='text-3xl px-16 py-8 font-black'>
@@ -56,8 +59,8 @@ export default function Hero() {
 
  <div className='absolute left-4 top-6 flex items-center'>
    <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-8 w-8 mr-1'/>
-   <div className='text-4xl text-[2.5rem] font-black '>
-     Kuma
+   <div className='text-4xl text-[2.5rem] font-black [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>
+   Kuma
    </div>
  </div>
 
@@ -65,10 +68,10 @@ export default function Hero() {
 
  <div className='w-full text-center'>
    <div className='text-3xl text-[#DBCAF4]'>
-   The <span className='text-white'>wallet</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white'>Blockchain</span>
+   The <span className='text-white'>wallet</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Saving Money</span>
    </div>
    <div className='text-sm text-black mb-6'>
-   Easy to use, own crypto on-chain, earn high-yield
+   Put your idle money to work with decentralized finance.
    </div>
    <div className='w-full'>
     <Button className=' text-2xl w-[85vw] py-8 font-black flex items-center justify-center mx-auto'>
