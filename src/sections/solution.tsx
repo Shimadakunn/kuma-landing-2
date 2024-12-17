@@ -4,22 +4,22 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 const features = [
   {
-    title: 'Lend and Earn',
-    text: 'Lend your dollars on the blockchain, earn interests on what you have lent.',
+    title: 'High Interest',
+    text: 'Earn high interest on your dollars.',
   },
   {
-    title: 'High Interests',
-    text: 'No intermediaries means better interests and more control over your money.',
+    title: 'Withdrawable',
+    text: 'Withdraw your dollars anytime.',
   },
   {
-    title: 'Stable',
-    text: 'Stocks, Bonds and Crypto are volatile. Dollar is stable.',
-  },
-  {
-    title: 'Simple and Secure',
-    text: 'Your money is yours. Nobody can access it. Retire your dollars anytime.',
+    title: 'Paid Daily',
+    text: 'The interest is paid daily, no waiting.',
   },
   
+  {
+    title: 'No Fees',
+    text: 'No subscription or maintenance fees.',
+  },
 ]
 export default function Solution() {
   const [isMobile, setIsMobile] = useState(false);

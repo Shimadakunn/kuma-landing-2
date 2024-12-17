@@ -22,21 +22,12 @@ export default function Problematic() {
         
      </div>
       <div className="mx-auto w-container max-w-full px-4 py-20 lg:py-[100px]">
-        <h2 className="text-4xl font-normal lg:mb-15 lg:text-5xl text-black text-left sm:text-center">
-          {isMobile ? (
-            <>
-              <span className='font-black'>Investing</span> is <span className='font-black text-red-500'>scary</span>.
-              <div className='mt-4'><span className='font-black'>Where</span> to start?</div>
-              <div className='mt-1'><span className='font-black'>How</span> to invest?</div>
-              <div className='mt-1'>What if I <span className='font-black text-red-500'>lose </span> my <span className='font-black'>money</span>?</div>
-            </>
-          ) : (
-            <>
-              <span className='font-black'>Investing</span> is <span className='font-black text-red-500'>scary</span>.
-              <div className='mt-4'><span className='font-black'>Where</span> to start, <span className='font-black'>How</span> to invest?</div>
-              <div className='mt-1'>What if I <span className='font-black text-red-500'>lose </span>all my <span className='font-black'>money</span>?</div>
-            </>
-          )}
+        <h2 className="text-2xl font-normal lg:mb-15 lg:text-5xl text-black text-left sm:text-center">
+
+              <span className='font-black'>Bank</span> uses <span className='font-black'>your money</span>
+              <div className='mt-1'><span className='font-black'>Generates</span> returns on <span className='font-black'>your back</span></div>
+              <div className='mt-1'>And gives you <span className='font-black text-red-500'>No Rewards</span></div>
+
         </h2>
       </div>
     </section>

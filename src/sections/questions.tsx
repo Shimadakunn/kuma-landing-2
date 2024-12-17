@@ -15,32 +15,34 @@ export default function Faq() {
 
         <div className="mx-auto grid w-[700px] max-w-full px-5">
           <Accordion className="text-base sm:text-lg" type="single" collapsible>
-            <AccordionItem className="mb-2" value="item-1">
-              <AccordionTrigger>Who controls the assets?</AccordionTrigger>
-              <AccordionContent>
-                You! You are the only owner of your assets. You can access from any device with passkey feature.
-                Connect with AppleID, Google Authentificator or your own Passwords Manager.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem className="mb-2" value="item-2">
-              <AccordionTrigger>Where is the yield comes from?</AccordionTrigger>
-              <AccordionContent>
-                The yield comes from the interest that borrowers pay. When you lend money, borrowers need to pay interest when returning what they borrowed.
-                You will receive that interest as a reward.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem className="mb-2" value="item-3">
-              <AccordionTrigger>Is it safe?</AccordionTrigger>
-              <AccordionContent>
-              Yes! AAVE supports daily volume of over $140B past 30 days, has been audited multiple times and has been in the market for over 4 years.
-              </AccordionContent>
-            </AccordionItem>
             <AccordionItem className="mb-2" value="item-4">
               <AccordionTrigger>Can I withdraw my assets anytime?</AccordionTrigger>
               <AccordionContent>
               Yes! You can withdraw your assets anytime.
               </AccordionContent>
             </AccordionItem>
+            <AccordionItem className="mb-2" value="item-2">
+              <AccordionTrigger>Where does the yield come from?</AccordionTrigger>
+              <AccordionContent>
+                The yield comes from the interest that borrowers pay. 
+                To borrow money, borrowers need to put as collateral more value than the amount they want to borrow.
+                Then when the borrower returns the money, he pays interest.
+                You will receive that interest as reward.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem className="mb-2" value="item-3">
+              <AccordionTrigger>What if the borrower defaults?</AccordionTrigger>
+              <AccordionContent>
+                If the borrower defaults, he will lose his collateral that you will receive as compensation.
+              </AccordionContent>
+            </AccordionItem>   
+            <AccordionItem className="mb-2" value="item-1">
+              <AccordionTrigger>Who controls the assets?</AccordionTrigger>
+              <AccordionContent>
+                You! You are the only owner of your assets. You can access from any device with passkey feature.
+                Connect with AppleID, Google Authentificator or your own Passwords Manager.
+              </AccordionContent>
+            </AccordionItem>       
             <AccordionItem value="item-5">
               <AccordionTrigger>How to recover my account?</AccordionTrigger>
               <AccordionContent>

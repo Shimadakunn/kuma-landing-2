@@ -34,10 +34,10 @@ export default function Hero() {
 
  <div className='mt-44 px-16 mr-16'>
    <div className='text-6xl leading-none mb-4 text-[#DBCAF4]'>
-   The <span className='text-white'>app</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Saving Money</span>
+   The <span className='text-white'>app</span> that <span className='font-black text-red-400 '>wakes up</span> <br /> your <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Dormant Money</span>
    </div>
    <div className='text-3xl text-[1.5rem] text-black mb-20'>
-   Put your idle money to work with decentralized finance.
+   Earn 10% interest, paid daily, withdrawable at any time.
    </div>
    <div className='flex justify-center'>
    <Button className='text-3xl px-16 py-8 font-black'>
@@ -68,10 +68,10 @@ export default function Hero() {
 
  <div className='w-full text-center'>
    <div className='text-3xl text-[#DBCAF4]'>
-   The <span className='text-white'>wallet</span> that made you <br /> <span className='font-black text-red-400 '>Love</span> <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Saving Money</span>
+   The <span className='text-white'>app</span> that <span className='font-black text-red-400 '>wakes up</span> <br /> your <span className='font-black text-white [text-shadow:_-1.75px_-1.75px_0_#000,_1.75px_-1.75px_0_#000,_-1.75px_1.75px_0_#000,_1.75px_1.75px_0_#000]'>Dormant Money</span>
    </div>
    <div className='text-sm text-black mb-6'>
-   Put your idle money to work with decentralized finance.
+   Earn 10% interest, paid daily, withdrawable at any time.
    </div>
    <div className='w-full'>
     <Button className=' text-2xl w-[85vw] py-8 font-black flex items-center justify-center mx-auto'>
