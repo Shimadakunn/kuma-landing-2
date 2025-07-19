@@ -8,7 +8,7 @@ export default function Footer() {
       <div className='flex items-center'>
    <Image src={"/logo.svg"} alt="logo" width={10} height={10} className='h-8 w-8 mr-1'/>
    <div className='text-4xl font-black '>
-     Kuma
+   Omni Gas
    </div>
   </div>
      <span className='font-light hidden md:block'>Make the Blockchain and Decentralized Finance accessible to everyone. </span>

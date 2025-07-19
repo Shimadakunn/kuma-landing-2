@@ -1,7 +1,7 @@
 "use client"
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
-import { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
 export default function CallToAction() {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -32,8 +32,12 @@ export default function CallToAction() {
           
         </h2>
         <div className='mx-auto w-full flex justify-center'>
-          <Button className='text-2xl sm:text-3xl px-8 sm:px-16 py-8 font-black flex items-center w-[85vw] sm:w-auto'>
-              <div>Download</div>
+          <Button className='text-2xl sm:text-3xl px-8 sm:px-16 py-8 font-black flex items-center w-[85vw] sm:w-auto'
+          onClick={() => {
+            window.location.href = "https://kuma-beta.vercel.app/";
+          }}
+          >
+              <div>Try Now</div>
               <Image src={"/logo.svg"} alt="logo" width={100} height={100} className="h-8 ml-2 w-8" />
           </Button>
         </div>

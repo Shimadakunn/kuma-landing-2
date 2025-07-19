@@ -6,7 +6,7 @@ import './globals.css'
 const dmSans = Lexend({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Kuma',
+  title: 'Omni Gas',
 }
 
 export default function RootLayout({
